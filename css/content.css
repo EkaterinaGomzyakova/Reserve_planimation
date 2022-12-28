@@ -1,0 +1,377 @@
+:root {
+  --pink: #FF6EFD;
+  --blue: #1C39FF;
+  --yellow: #FED700;
+  --white: #FFF;
+}
+
+body {
+  background: var(--pink);
+  display: flex;
+  flex-direction: column;
+  font-family: "MacPawFixelDisplay", "Arial", sans-serif;
+}
+
+.screen1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.694vw;
+}
+
+.block1 {
+  margin-left: 0.694vw;
+  display: flex;
+  flex-direction: column;
+}
+.block2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 8.889vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.second {
+  margin-top: 0.694vw;
+  display: flex;
+  width: 80vw;
+  height: 46.042vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+  justify-content: center;
+}
+
+.third {
+  margin-left: 0.694vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 17.917vw;
+  height: 55.625vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.694vw;
+}
+
+.screen3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.694vw;
+  width: 98.611vw;
+  height: 54.444vw;
+  margin-left: 0.694vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.screen4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 98.611vw;
+  height: 11.736vw;
+  background: var(--yellow);
+  border-radius: 1.389vw;
+  margin-top: 0.694vw;
+  margin-left: 0.694vw;
+  overflow: hidden;
+}
+
+.screen5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 98.611vw;
+  height: 11.111vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+  margin-top: 0.694vw;
+  margin-left: 0.694vw;
+  margin-bottom: 0.694vw;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 40.139vw;
+  margin-left: 0.694vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  height: 14.236vw;
+  margin-left: 0.694vw;
+  margin-top: 0.694vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.sixth {
+  display: flex;
+  flex-direction: row;
+  width: 52.917vw;
+  height: 55.069vw;
+  margin-left: 0.694vw;
+  background: var(--blue);
+  border-radius: 1.389vw;
+}
+
+.seventh {
+  display: flex;
+  flex-direction: row;
+  margin-left: 14.583vw;
+  margin-top: 5.556vw;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangles {
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3,p {
+  color: #FFF;
+}
+
+h1 {
+  font-family: 'MacPaw Fixel';
+  font-weight: 400;
+  font-size: 4.444vw;
+  line-height: 8.889vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'MacPaw Fixel';
+  font-weight: 400;
+  font-size: 2.222vw;
+  line-height: 3.056vw;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  }
+
+p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.667vw;
+  line-height: 2.083vw;
+}
+/* лаборатория */
+h1:nth-of-type(1) {
+  margin-left: 1.736vw;
+}
+
+.screen4 > h1 {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 8.889vw;
+  line-height: 12.292vw;
+  white-space: nowrap;
+}
+
+.screen5 > p {
+  margin-left: 5.556vw
+}
+/* группа кругов */
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 36.736vw;
+  height: 6.944vw;
+  margin: 1.042vw 0 auto 4.167vw;
+}
+
+.circle {
+  width: 4.514vw;
+  height: 4.514vw;
+  border-radius: 50%;
+  background: var(--yellow);
+}
+/* круги четные */
+.circle:nth-child(even) {
+  margin-top: 1.389vw;
+}
+
+.upimg {
+  margin-top: 2.778vw;
+  margin-bottom: 2.778vw;
+  margin-left: 2.778vw;
+}
+
+.downimg {
+  margin: 18.264vw;
+  margin-bottom: 2.778vw;
+  margin-left: 2.778vw;
+}
+
+.second h2 {
+  margin-top: 1.389vw;
+}
+
+.up, .down {
+  width: 5.278vw;
+  height: 5.625vw;
+}
+
+.plants {
+  width: 72.500vw;
+  height: 43.333vw;
+}
+
+.code > p {
+  margin-top: 2.778vw;
+  line-height: 4.167vw;
+}
+
+.fourth > h2 {
+  margin-top: 5.556vw;
+  align-self: center;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.battery {
+  width: 3.333vw;
+  height: 12.292vw;
+  background: var(--yellow);
+  border-radius: 0.694vw;
+  margin: 0.972vw 0 0 0.972vw;
+}
+
+.cable {
+  width: 0.694vw;
+  height: 8.194vw;
+  margin-left: 16.181vw;
+}
+
+.holder {
+  width: 23.681vw;
+  height: 9.722vw;
+  margin-left: 4.583vw;
+  margin-top: 0;
+}
+
+.box {
+  display: flex;
+  width: 22.917vw;
+  height: 22.917vw;
+  background: var(--white);
+  margin-left: 5vw;
+  margin-top: -0.347vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.cableholder {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallflower {
+  width: 16.389vw;
+  height: 16.389vw;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22.917vw;
+  height: 22.917vw;
+  background: var(--white);
+  margin-left: 0.694vw;
+  margin-top: 25.625vw;
+}
+
+.strawberry {
+  width: 17.083vw;
+  height: 18.333vw;
+}
+
+.conveyor {
+  width: 52.917vw;
+  height: 2.222vw;
+  margin-left: -51.458vw;
+  margin-top: 49.236vw;
+}
+
+.rectanglesm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.069vw;
+  width: 6.944vw;
+  height: 6.944vw;
+  border: 0.278vw solid var(--white);
+}
+
+.rectanglemid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -0.069vw; */
+  width: 20.833vw;
+  height: 20.833vw;
+  border: 0.278vw solid var(--white);
+}
+
+.rectanleb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41.944vw;
+  height: 41.944vw;
+  background: var(--yellow);
+}
+
+.pinkseed, .yellowseed {
+  width: 2.222vw;
+  height: 4.931vw
+}
+
+.smallflowerye {
+  width: 16.389vw;
+  height: 16.389vw;
+}
+
+.grape {
+  width: 16.875vw;
+  height: 17.431vw;
+}
+
+.appleflower {
+  width: 36.111vw;
+  height: 35.278vw;
+}
+
+.logo {
+  width: 15.833vw;
+  height: 6.250vw;
+  margin-right: 5.556vw;
+}
